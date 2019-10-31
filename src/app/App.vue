@@ -5,6 +5,14 @@
         <span>Floraqueen</span>
         <span class="font-weight-light">Bouquets</span>
       </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn
+        text
+        href="https://github.com/vuetifyjs/vuetify/releases/latest"
+        target="_blank"
+      >
+        <span class="mr-2">Add new buquet</span>
+      </v-btn>
     </v-app-bar>
 
     <v-content>
