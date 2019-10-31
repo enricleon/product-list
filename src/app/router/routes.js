@@ -5,6 +5,7 @@ const baseRoutes = [{
 },
 {
     path: "/",
+    redirect: '/bouquets',
     name: "Home",
     component: () => import("../core/pages/Home.vue")
 }];
