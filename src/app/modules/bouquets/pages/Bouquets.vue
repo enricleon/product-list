@@ -1,5 +1,5 @@
 <template>
-    <BouquetsList/>
+    <BouquetsList :bouquets="bouquets"/>
 </template>
 <script>
 import BouquetsList from '../components/BouquetsList';
@@ -25,7 +25,7 @@ export default {
             this.isLoading = true;
             const { data } = await BouquetsRepository.get();
             this.isLoading = false;
-            this.bouquets = data.items;
+            this.bouquets = data;
         }
     }
 }
